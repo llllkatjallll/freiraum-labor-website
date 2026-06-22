@@ -349,6 +349,25 @@ a {
       filter: grayscale(0%);
     }
 
+    .gallery-details-container {
+      display: flex;  
+      flex-direction: row;
+    }
+
+    .photo-info-container {
+      padding: 30px;   
+      flex:1;
+    }
+
+    #overlay-img {
+        flex:2;
+    }
+
+    .photo-info-container p {
+        overflow-y: scroll;
+        max-height: 62vh;
+    }
+
 @media (max-width:900px) {
 
     .gallery-grid,
