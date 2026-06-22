@@ -17,6 +17,16 @@ const imgTxt = document.getElementById('img-txt');
 let imageCount = 0;
 let galleryData = [];
 
+// Shuffle array randomly (Fisher-Yates algorithm)
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 // Load gallery from JSON files
 async function loadGallery() {
   try {
@@ -43,7 +53,7 @@ async function loadGallery() {
       }
     }
 
-    galleryData = jsonFiles;
+    galleryData = shuffleArray(jsonFiles);
     renderGallery();
   } catch (error) {
     console.error('Fehler beim Laden der Galerie:', error);
