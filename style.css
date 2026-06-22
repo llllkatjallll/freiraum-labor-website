@@ -364,8 +364,31 @@ a {
     }
 
     .photo-info-container p {
-        overflow-y: scroll;
+        overflow-y: auto;
         max-height: 62vh;
+    }
+
+    .hashtag-container {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .hashtag {
+        display: inline-block;
+        padding: 6px 12px;
+        background: rgba(255, 125, 125, 0.2);
+        border: 1px solid rgba(255, 125, 125, 0.4);
+        border-radius: 16px;
+        font-size: 0.85rem;
+        color: #ff7d7d;
+        transition: all 0.25s;
+    }
+
+    .hashtag:hover {
+        background: rgba(255, 125, 125, 0.3);
+        border-color: rgba(255, 125, 125, 0.6);
     }
 
 @media (max-width:900px) {

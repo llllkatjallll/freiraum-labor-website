@@ -1,0 +1,7 @@
+{
+  "image-path": "Pics/BILDNAME.jpg",
+  "image-title": "Titel des Bildes",
+  "artist-name": "Katja",
+  "text-description": "Hier kommt die Beschreibung des Bildes. Du kannst so viel Text schreiben wie du möchtest.",
+  "hashtags": ["tag1", "tag2", "tag3", "tag4"]
+}
