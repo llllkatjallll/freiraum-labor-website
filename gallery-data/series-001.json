@@ -1,0 +1,21 @@
+{
+  "artist-name": "Basti",
+  "series-name": "Basti Lost Place - Kentmere Pan 400",
+  "series-description": "Beispiel Beschreibung",
+  "film-type": "Kentmere Pan 400",
+  "photos-folder": "Pics/Basti Lost Place - Kentmere Pan 400",
+  "photo-files": [
+    {
+      "filename": "lightlab_basti_lostplace_pan4001.jpg",
+      "comment": "Kommentar zum ersten Bild"
+    },
+    {
+      "filename": "lightlab_basti_lostplace_pan4002.jpg",
+      "comment": "Kommentar zum zweiten Bild"
+    },
+    {
+      "filename": "lightlab_basti_lostplace_pan4003.jpg",
+      "comment": "Kommentar zum dritten Bild"
+    }
+  ]
+}

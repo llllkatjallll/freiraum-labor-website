@@ -1,7 +1,21 @@
 {
-  "image-path": "Pics/BILDNAME.jpg",
-  "image-title": "Titel des Bildes",
   "artist-name": "Name des Künstlers",
-  "text-description": "Hier kommt die Beschreibung des Bildes. Du kannst so viel Text schreiben wie du möchtest.",
-  "hashtags": ["tag1", "tag2", "tag3", "tag4"]
+  "series-name": "Name der Serie",
+  "series-description": "Beschreibung der Bilderserie. Hier kannst du über das Konzept, die Technik oder die Inspiration der gesamten Serie schreiben.",
+  "film-type": "Art des Films (z.B. Kodak Portra 400, Ilford HP5, etc.)",
+  "photos-folder": "Pics/ORDNERNAME",
+  "photo-files": [
+    {
+      "filename": "bild001.jpg",
+      "comment": "Kommentar zum ersten Bild"
+    },
+    {
+      "filename": "bild002.jpg",
+      "comment": "Kommentar zum zweiten Bild"
+    },
+    {
+      "filename": "bild003.jpg",
+      "comment": "Kommentar zum dritten Bild"
+    }
+  ]
 }

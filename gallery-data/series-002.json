@@ -1,0 +1,21 @@
+{
+  "artist-name": "Marc",
+  "series-name": "Marc - HP5400",
+  "series-description": "Beispiel Beschreibung",
+  "film-type": "HP5400",
+  "photos-folder": "Pics/Mark - HP5400",
+  "photo-files": [
+    {
+      "filename": "mark_hp5_1.jpg",
+      "comment": "Kommentar zum ersten Bild"
+    },
+    {
+      "filename": "mark_hp5_2.jpg",
+      "comment": "Kommentar zum zweiten Bild"
+    },
+    {
+      "filename": "mark_hp5_3.jpg",
+      "comment": "Kommentar zum dritten Bild"
+    }
+  ]
+}
